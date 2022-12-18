@@ -11,6 +11,7 @@
       src="https://kit.fontawesome.com/40156ee2fa.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <section class="header">
@@ -328,14 +329,15 @@
                     <p>Estimate For Projects</p>
                     <h2>Share Work Details</h2>
                 </div>
-                <form action="">
-                    <input type="text" id="full_name" name="full_name" placeholder="Full name">
-                    <input type="email" id="email" name="email" placeholder="Email address">
+                <form id="form" action="" method="get">
+                    <input type="text" id="full_name" name="full_name" placeholder="Full name" required>
+                    <input type="email" id="email" name="email" placeholder="Email address" required>
                     <input type="text" id="subject" name="subject" placeholder="Subject">
                     <br><br>
                     <textarea name="workdetails" id="workdetails" cols="30" rows="10" placeholder="Work Details"></textarea>
                     
                     <button type="submit" id="submit">Subscribe Now</button>
+                    <div id="error"><p></p></div>
                 </form>
             </div>
         </div>

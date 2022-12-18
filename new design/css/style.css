@@ -466,12 +466,12 @@ li {
 }
 .expert-sec .office .office-row {
   position: absolute;
-  bottom: 13%;
+  bottom: 12%;
   left: 5%;
   width: 90%;
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px 20px 50px;
+  padding: 25px 50px;
   background-color: #fff;
   border-radius: 14px;
 }
@@ -626,7 +626,7 @@ li {
   color: grey;
 }
 .forms .form-con .form-detail h2 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 600;
 }
 .forms .form-con form #full_name, .forms .form-con form #email, .forms .form-con form #subject {
@@ -660,6 +660,9 @@ li {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+}
+.forms .form-con form #error {
+  color: rgb(255, 2, 2);
 }
 
 .location {
