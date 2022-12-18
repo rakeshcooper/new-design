@@ -677,4 +677,24 @@ footer {
   align-items: center;
   color: #fff;
   background-color: var(--black);
+}
+
+.hero-bg {
+  height: 100vh;
+  background-color: var(--black);
+  position: relative;
+}
+.hero-bg .hero {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 500px;
+  height: 200px;
+  background-color: var(--lightblue);
+  text-align: center;
+  border-radius: 14px;
+}
+.hero-bg .hero h1 {
+  margin-top: 60px;
 }/*# sourceMappingURL=style.css.map */
