@@ -761,7 +761,14 @@ li{
             }
 
             #error{
+                margin-top: 10px;
+                padding: 10px;
+                background-color: rgba(252, 0, 0, 0.100);
                 color: rgb(255, 2, 2);
+                border: 1px solid red;
+                border-radius: 12px;
+                display: none;
+
             }
         }
     }
