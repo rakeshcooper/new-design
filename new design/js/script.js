@@ -22,6 +22,10 @@ form.addEventListener('submit', (e) => {
          messages.push("email field is required!!!!")
          red(email);
      }
+     else if(!email.value.match((/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/))){
+         messages.push("please enter valid email address!!!!")
+         red(email);
+     }
      else if(email.value.length > 0){
          green(email);
      }
